@@ -13,7 +13,8 @@ use pocketmine\event\Listener;
 class PluginUITest extends PluginBase implements Listener {
     public function onEnable(): void {
         $this->getServer()->getPluginManager()->registerEvent($this, $this);
-        $this->getLogger()->Info("Plugin Enabled! =FRashkar=")}
+        $this->getLogger()->Info("Plugin Enabled! =FRashkar=");
+    }
     
     public function onCommand(CommandSender $sender, command $command, string $label, array $args): bool {
         $commandname = $command->getName();
