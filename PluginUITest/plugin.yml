@@ -1,0 +1,14 @@
+name: Plugin
+main: FRashkar\PluginUITest
+author: FRashkar
+versi: 0.0.1
+api: 4.0.0
+description: "PluginUITest"
+commands:
+  ui:
+    description: UI Command
+    permission: ui.cmd
+permission:
+  ui.cmd:
+    description: UI Command
+    default: true
