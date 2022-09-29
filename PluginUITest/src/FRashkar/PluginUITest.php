@@ -45,7 +45,7 @@ class PluginUITest extends PluginBase implements Listener {
             }
         })
         //Make FormAPI ui
-        $form->setTittle("Tittle here");
+        $form->setTitle("Title here");
         $form->setContent("Content here");
         $form->addButton("Button 1");
         $form->addButton("Button 2");
