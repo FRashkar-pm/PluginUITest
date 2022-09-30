@@ -11,6 +11,7 @@ use jojoe77777\FormAPI\SimpleForm;
 use pocketmine\event\Listener;
 
 class PluginUITest extends PluginBase implements Listener {
+    
     public function onEnable(): void {
         $this->getServer()->getPluginManager()->registerEvent($this, $this);
         $this->getLogger()->Info("Plugin Enabled! =FRashkar=");
