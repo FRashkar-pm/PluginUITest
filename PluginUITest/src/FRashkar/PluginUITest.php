@@ -10,6 +10,7 @@ use pocketmine\player\Player;
 use jojoe77777\FormAPI\SimpleForm;
 use pocketmine\event\Listener;
 use pocketmine\form\FormValidationException;
+use FRashkar\SimpleFormS;
 
 class PluginUITest extends PluginBase implements Listener {
     
