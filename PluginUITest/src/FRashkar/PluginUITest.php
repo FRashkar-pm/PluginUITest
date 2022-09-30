@@ -30,7 +30,7 @@ class PluginUITest extends PluginBase implements Listener {
         return true;
     }
     public function ui(Player $player) {
-        $form = new SimpleForm(function(Player $player, int $data = null){
+        $form = new CustomForm(function(Player $player, int $data = null){
             if($data === null){
                 return;
             }
