@@ -7,7 +7,7 @@ use pocketmine\Server;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\player\Player;
-use jojoe77777\FormAPI\SimpleForm;
+use LatamPMDevs\FormAPI\src\jojoe77777\FormAPI\SimpleForm;
 use pocketmine\event\Listener;
 use pocketmine\form\FormValidationException;
 use FRashkar\SimpleFormS;
