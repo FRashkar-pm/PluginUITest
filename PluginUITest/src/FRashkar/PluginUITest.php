@@ -7,11 +7,9 @@ use pocketmine\Server;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\player\Player;
-use jojoe77777\FormAPI\SimpleForm;
+use Vecnavium\FormsUI\CustomForm;
 use pocketmine\event\Listener;
 use pocketmine\form\FormValidationException;
-use jojoe77777\FormAPI\FormAPI;
-use jojoe77777\FormAPI\Form;
 
 class PluginUITest extends PluginBase implements Listener {
     
@@ -51,9 +49,8 @@ class PluginUITest extends PluginBase implements Listener {
         //Make FormAPI ui
         $form->setTitle("Title here");
         $form->setContent("Content here");
-        $form->addButton("Button 1");
-        $form->addButton("Button 2");
-        $form->addButton("Button 3");
+        $form->addToggle("Button 1");
+        $form->addToggle("Button 2");
         $player->sendForm($form);
         return $form;
     }
