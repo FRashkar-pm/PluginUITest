@@ -7,7 +7,7 @@ use pocketmine\Server;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\player\Player;
-use LatamPMDevs\FormAPI\src\jojoe77777\FormAPI\SimpleForm;
+use jojoe77777\FormAPI\SimpleForm;
 use pocketmine\event\Listener;
 use pocketmine\form\FormValidationException;
 use FRashkar\SimpleFormS;
@@ -32,7 +32,7 @@ class PluginUITest extends PluginBase implements Listener {
         }
         return true;
     }
-    public function ui(Player $player){
+    public function ui(Player $player): bool {
         $form = new SimpleForm(function(Player $player, int $data = null){
             if($data === null){
                 return;
