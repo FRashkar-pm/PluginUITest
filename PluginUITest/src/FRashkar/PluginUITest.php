@@ -7,7 +7,7 @@ use pocketmine\Server;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\player\Player;
-use Vecnavium\FormsUI\CustomForm;
+use Vecnavium\FormsUI\SimpleForm;
 use pocketmine\event\Listener;
 use pocketmine\form\FormValidationException;
 
@@ -30,7 +30,7 @@ class PluginUITest extends PluginBase implements Listener {
         return true;
     }
     public function ui(Player $player) {
-        $form = new createCustomForm(function(Player $player, int $data = null){
+        $form = new SimpleForm(function(Player $player, int $data = null){
             if($data === null){
                 return;
             }
