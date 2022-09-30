@@ -11,6 +11,9 @@ use jojoe77777\FormAPI\SimpleForm;
 use pocketmine\event\Listener;
 use pocketmine\form\FormValidationException;
 use FRashkar\SimpleFormS;
+use jojoe77777\FormAPI\FormAPI;
+use jojoe77777\FormAPI\Form;
+use pocketmine\form\Form;
 
 class PluginUITest extends PluginBase implements Listener {
     
